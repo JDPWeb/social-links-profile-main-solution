@@ -12,11 +12,17 @@ body {
     box-sizing: border-box;
 }
 
+main {
+    background-color: teal;
+    height: 100vh;
+}
+
 
 
 
 
 .attribution {
+display: block;
   font-size: 11px;
   text-align: center;
 }
