@@ -1,28 +1,30 @@
 :root {
-    --green: hsl(75, 94%, 57%);
-    --white: hsl(0, 0%, 100%);    
-    --grey700: hsl(0, 0%, 20%);
-    --grey800: hsl(0, 0%, 12%);
-    --grey900: hsl(0, 0%, 8%);
+  --green: hsl(75, 94%, 57%);
+  --white: hsl(0, 0%, 100%);
+  --grey700: hsl(0, 0%, 20%);
+  --grey800: hsl(0, 0%, 12%);
+  --grey900: hsl(0, 0%, 8%);
 }
 
 body {
-    font-family: "Inter", sans-serif;
-    font-size: 16px;
-    box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  box-sizing: border-box;
 }
 
 main {
-    background-color: teal;
-    height: 100vh;
+  background-color: teal;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-
-
-
+.container {}
 
 .attribution {
-display: block;
+  display: block;
   font-size: 11px;
   text-align: center;
 }
