@@ -13,15 +13,61 @@ body {
 }
 
 main {
-  background-color: teal;
+  background-color: var(--grey900);
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: var(--white);
 }
 
-.container {}
+.container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--grey800);
+    border-radius: .25rem;
+    overflow: hidden;
+    padding: 5rem;
+}
+
+.avatar {
+    border-radius: 50%;
+}
+
+.location {
+    color: var(--green);
+}
+
+.profileDesc {
+    font-weight: lighter;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sLink {
+    text-decoration: none;
+    margin: .5rem auto;
+    color: var(--white);
+    width: 100%;
+    border-radius: .25rem;
+    height: 4rem;
+    background-color: var(--grey700);
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sLink:hover {
+    color: var(--grey900);
+    background-color: var(--green);
+}
 
 .attribution {
   display: block;
