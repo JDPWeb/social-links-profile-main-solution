@@ -31,15 +31,14 @@ main {
   border-radius: 0.5rem;
   overflow: hidden;
   margin: 2rem auto;
-  padding: 7.5%;
+  padding: 1.5rem;
   max-width: 328px;
-  box-sizing: border-box;
 }
 
 .avatar {
   border-radius: 50%;
   width: 31.5%;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .title {
@@ -63,7 +62,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: 1.5rem;
+  margin-top: .5rem;
 }
 
 .sLink {
@@ -86,10 +85,10 @@ main {
   background-color: var(--green);
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 1000px) {
   .container {
     padding: 2.5rem;
-    max-width: 384px;
+    width: 384px;
   }
   .avatar {
     width: 5.5rem;
