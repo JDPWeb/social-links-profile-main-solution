@@ -24,22 +24,22 @@ main {
 }
 
 .container {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    background-color: var(--grey800);
-    border-radius: .5rem;
-    overflow: hidden;
-    margin: 2rem auto;
-    padding: 7.5%;
-    max-width: 328px;
-    box-sizing: border-box;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--grey800);
+  border-radius: 0.5rem;
+  overflow: hidden;
+  margin: 2rem auto;
+  padding: 7.5%;
+  max-width: 328px;
+  box-sizing: border-box;
 }
 
 .avatar {
-    border-radius: 50%;
-    width: 31.5%;
-    margin-bottom: 2rem;
+  border-radius: 50%;
+  width: 31.5%;
+  margin-bottom: 2rem;
 }
 
 .title {
@@ -48,62 +48,60 @@ main {
 }
 
 .location {
-    color: var(--green);
-    font-size: .875rem;
-    font-weight: 700;
-    margin-bottom: 2rem;
+  color: var(--green);
+  font-size: 0.875rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
 }
 
 .profileDesc {
-    font-weight: 400;
-    font-size: .875rem;
+  font-weight: 400;
+  font-size: 0.875rem;
 }
 
 .social {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 1.5rem;
 }
 
 .sLink {
-    text-decoration: none;
-    font-size: .875rem;
-    font-weight: 600;
-    margin: .5rem auto;
-    color: var(--white);
-    width: 100%;
-    padding: 1rem;
-    border-radius: .25rem;
-    box-sizing: border-box;
-    background-color: var(--grey700);
-    font-weight: bold;
-    transition: all ease-in-out 500ms; 
+  text-decoration: none;
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin: 0.5rem auto;
+  color: var(--white);
+  width: 100%;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  box-sizing: border-box;
+  background-color: var(--grey700);
+  font-weight: bold;
+  transition: all ease-in-out 500ms;
 }
 
 .sLink:hover {
-    color: var(--grey900);
-    background-color: var(--green);
+  color: var(--grey900);
+  background-color: var(--green);
 }
 
-@media screen and (min-width:400px) {
-
+@media screen and (min-width: 400px) {
   .container {
     padding: 2.5rem;
     max-width: 384px;
-}
-.avatar {
-  width: 5.5rem;
-}
+  }
+  .avatar {
+    width: 5.5rem;
+  }
 
-.location {
-    font-size: .894rem;
-}
+  .location {
+    font-size: 0.894rem;
+  }
 
-.profileDesc {
-    font-size: .894rem;
-}
-
+  .profileDesc {
+    font-size: 0.894rem;
+  }
 }
 
 .attribution {
