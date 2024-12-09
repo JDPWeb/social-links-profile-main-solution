@@ -28,7 +28,7 @@ main {
     display: flex;
     flex-direction: column;
     background-color: var(--grey800);
-    border-radius: .25rem;
+    border-radius: .5rem;
     overflow: hidden;
     margin: 2rem auto;
     padding: 7.5%;
@@ -63,10 +63,13 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-top: 1.5rem;
 }
 
 .sLink {
     text-decoration: none;
+    font-size: .875rem;
+    font-weight: 600;
     margin: .5rem auto;
     color: var(--white);
     width: 100%;
@@ -75,14 +78,32 @@ main {
     box-sizing: border-box;
     background-color: var(--grey700);
     font-weight: bold;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    transition: all ease-in-out 500ms; 
 }
 
 .sLink:hover {
     color: var(--grey900);
     background-color: var(--green);
+}
+
+@media screen and (min-width:400px) {
+
+  .container {
+    padding: 2.5rem;
+    max-width: 384px;
+}
+.avatar {
+  width: 5.5rem;
+}
+
+.location {
+    font-size: .894rem;
+}
+
+.profileDesc {
+    font-size: .894rem;
+}
+
 }
 
 .attribution {
